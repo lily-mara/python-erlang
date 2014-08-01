@@ -26,5 +26,3 @@ def b(traffic, lines):
                 return 0
         return 1 / PBR
     return 0
-
-print(extended_b_lines(8, 0.001))
