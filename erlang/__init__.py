@@ -2,11 +2,11 @@ def extended_b_lines(usage, blocking):
     '''
     Uses the Extended Erlang B formula to calcluate the ideal number of lines
     for the given usage in erlangs and the given blocking rate.
-    
+
     Usage:
     extended_b_lines(usage, blocking)
     '''
-    
+
     line_count = 1
     while extended_b(usage, line_count) > blocking:
         line_count += 1
