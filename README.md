@@ -13,8 +13,12 @@ pull this package from PyPi and install it.
 Usage
 -----
 
-As the package is currently in its infancy, there are only a few functions
-available.
+As the package is currently in its infancy, the only useful function included
+will calculate the number of lines needed to support the given usage in erlangs
+and blocking rate using the Extended Erlang B formula.
 
-    >>> import erlang
-    >>> erlang.
+```python
+>>> import erlang
+>>> erlang.extended_b_lines(12, 0.001)
+24
+```
