@@ -3,5 +3,8 @@ python:
   - "3.2"
   - "3.3"
   - "3.4"
-install: "sudo pip install pytest"
+install:
+  - "python --verson"
+  - "pip --version"
+  - "sudo pip install pytest"
 script: "py.test run_tests.py"
