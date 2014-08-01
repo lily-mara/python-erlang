@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='python-erlang',
-    version='0.1.1',
+    version='0.1.2',
     description='Telecom calculation library for python',
     url='http://github.com/natemara/python-erlang',
     author='Nate Mara',
