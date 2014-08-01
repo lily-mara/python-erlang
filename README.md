@@ -1,7 +1,7 @@
 Python-Erlang
 =============
 
-[![build status](https://travis-ci.org/natemara/python-erlang.svg?branch=master)][https://travis-ci.org/natemara/python-erlang]
+[![build status](https://travis-ci.org/natemara/python-erlang.svg?branch=master)](https://travis-ci.org/natemara/python-erlang)
 
 This is the main repository for the `python-erlang` package. This package is
 used to calculate various telecommunications statistics.
