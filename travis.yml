@@ -9,4 +9,4 @@ install:
   - "python --version"
   - "pip --version"
   - "python setup.py install"
-script: "python -m tests"
+script: "python -m tests.__main__"
