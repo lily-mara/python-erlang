@@ -8,6 +8,6 @@ setup(
 	author='Nate Mara',
 	author_email='natemara@gmail.com',
 	license='MIT',
-	packages=['erlang'],
+	packages=['erlang', 'tests'],
 	zip_safe=False
 )
