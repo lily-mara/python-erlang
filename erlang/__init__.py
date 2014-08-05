@@ -1,3 +1,6 @@
+from __future__ import division
+
+
 def extended_b_lines(usage, blocking):
 	'''
 	Uses the Extended Erlang B formula to calcluate the ideal number of lines
@@ -37,10 +40,10 @@ def b(usage, lines):
 	'''
 
 	if usage > 0:
-		PBR = float(1 + usage) / float(usage)
+		PBR = (1 + usage) / usage
 		for index in range(2, lines + 1):
 			print(PBR)
-			PBR = float(index) / float(usage) * PBR + 1
+			PBR = index / usage * PBR + 1
 			if PBR > 10000:
 				return 0
 		return 1 / PBR
