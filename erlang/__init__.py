@@ -37,9 +37,10 @@ def b(usage, lines):
 	'''
 
 	if usage > 0:
-		PBR = (1 + usage) / usage
+		PBR = float(1 + usage) / float(usage)
 		for index in range(2, lines + 1):
-			PBR = index / usage * PBR + 1
+			print(PBR)
+			PBR = float(index) / float(usage) * PBR + 1
 			if PBR > 10000:
 				return 0
 		return 1 / PBR
