@@ -8,4 +8,4 @@ python:
 install:
   - "python --version"
   - "pip --version"
-script: "py.test run_tests.py"
+script: "python tests"

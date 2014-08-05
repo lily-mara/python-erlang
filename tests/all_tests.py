@@ -1,3 +1,5 @@
+import os
+import pytest
 from erlang import extended_b_lines
 
 
@@ -8,3 +10,7 @@ class TestLineCalculation:
 	def test_calcluations(self):
 		for case in self.cases:
 			assert extended_b_lines(case[1], case[0]) == case[2]
+
+if __name__ == '__main__':
+	filename = os.path.dirname(os.path.abspath(__file__))
+	pytest.main('run_tests.py')
